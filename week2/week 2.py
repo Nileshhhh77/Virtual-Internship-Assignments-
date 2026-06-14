@@ -97,7 +97,7 @@ print("\n========================================")
 print("   TASK 2: TITANIC - LOGISTIC REGRESSION")
 print("========================================")
 
-titanic_df = pd.read_csv('tested.csv')
+titanic_df = pd.read_csv('../week1/tested.csv')
 
 print("\nMissing values before cleaning:")
 print(titanic_df.isnull().sum())
